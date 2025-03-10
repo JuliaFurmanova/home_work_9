@@ -23,7 +23,7 @@ def test_submit_form():
     registration_form.assert_filled_labels('Label Values')
     registration_form.assert_filled_names('Student Name Julia Furmanova')
     registration_form.assert_filled_emaily('Student Email ula555@mail.me')
-    registration_form.assert_filled_gender('Gender Female')
+    registration_form.assert_filled_gender('Gender Male')
     registration_form.assert_filled_mobile('Mobile 3123213131')
     registration_form.assert_filled_birt('Date of Birth 15 September,1999')
     registration_form.assert_filled_subject('Subjects Maths, English')

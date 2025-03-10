@@ -22,7 +22,7 @@ class RegistrationPage:
 
 
     def gender_name(self ):
-        browser.element('[for="gender-radio-2"]').click()
+        browser.element('[for="gender-radio-1"]').click()
 
     def number_name(self , phone):
         browser.element('#userNumber').type(phone)
