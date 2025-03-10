@@ -38,7 +38,7 @@ class RegistrationPage:
         browser.element('#subjectsInput').type(Value1).press_enter()
         browser.element('#subjectsInput').type(Value2).press_enter()
 
-    def hobbis_name(self ):
+    def hobbies_name(self ):
         browser.element('[for="hobbies-checkbox-1"]').click()
 
     def picture_png(self  ):

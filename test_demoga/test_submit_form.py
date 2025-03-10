@@ -14,7 +14,7 @@ def test_submit_form():
     registration_form.number_name('3123213131')
     registration_form.birthday_data('8', '1999', '15')
     registration_form.subject_name('Math', 'English')
-    registration_form.hobbis_name()
+    registration_form.hobbies_name()
     registration_form.picture_png()
     registration_form.addres_name('Komsomolskaya 191')
 
