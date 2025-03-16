@@ -1,5 +1,3 @@
-
-
 from step_objects.page import RegistrationPage
 
 
